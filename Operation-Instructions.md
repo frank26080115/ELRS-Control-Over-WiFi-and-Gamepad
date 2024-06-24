@@ -4,7 +4,7 @@
 
 For ELRS receivers, simply do the usual method to activate Wi-Fi mode, which is to just wait until the LED starts blinking very rapidly. You can set the time you need to wait with the `AUTO_WIFI_ON_INTERVAL` option.
 
-For ELRS external transmitter modules, the installation instructions I've provided have already told you to set `AUTO_WIFI_ON_INTERVAL` to a number lower than 10. If you did so and powered on the module without an attached handset, it should automatically go into the Wi-Fi mode.
+For ELRS external transmitter modules, the installation instructions I've provided have already told you to set `AUTO_WIFI_ON_INTERVAL` to a number lower than 10. If you did so and powered on the module without an attached handset (with a USB cable, or with a battery), it should automatically go into the Wi-Fi mode.
 
 Once Wi-Fi is active, you can scan for it with the SSID `ExpressLRS RX` or `ExpressLRS TX`. Connect to it once it's been found. The default password is `expresslrs`.
 
