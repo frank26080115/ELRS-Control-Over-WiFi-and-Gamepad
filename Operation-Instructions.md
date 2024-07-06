@@ -76,7 +76,7 @@ There are three buttons that allow you to save and load your mixer. Using `Save 
 
 `function scaleToCRSF(x, s)` will convert a number ranged -1.0 to +1.0 into the range CRSF needs. The `s` parameter is a multiplier, use `s` set to 1 for a normal conversion.
 
-`function scaleToCRSF(x, s)` will convert a number ranged 0 to +100 into the range CRSF needs. The `s` parameter is a multiplier, use `s` set to 1 for a normal conversion.
+`function sliderToCRSF(x, s)` will convert a number ranged 0 to +100 into the range CRSF needs. The `s` parameter is a multiplier, use `s` set to 1 for a normal conversion.
 
 `function arcadeTankMix(t, s)` will mix a 2-axis joystick input and output the two motor speeds needed for tank-style motion. This is meant for robotics. The parameter `t` is throttle, `s` is steering, both ranged -1.0 to +1.0. The output is an array with two elements, representing the left and right motor speeds, both ranged -1.0 to +1.0. For example:
 ```
